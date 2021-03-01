@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT year) FROM Award WHERE laureateID IN (SELECT id FROM Organization);

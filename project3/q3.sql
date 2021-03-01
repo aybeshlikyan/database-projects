@@ -1,0 +1,1 @@
+SELECT familyName FROM Person GROUP BY familyName HAVING COUNT(familyName) >= 5;

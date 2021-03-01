@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM Affiliation WHERE name="University of California";
